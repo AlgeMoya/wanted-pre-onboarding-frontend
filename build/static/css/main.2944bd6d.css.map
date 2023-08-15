@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.2944bd6d.css","mappings":"AAAA,wBACE,WAAY,CACZ,kBACF","sources":["pages/Todo.css"],"sourcesContent":[".todo-item-label::before {\n  content: \"•\"; /* 마커 모양을 설정 (여기서는 원형) */\n  margin-right: 0.1rem; /* 마커와 텍스트 사이의 간격 조절 */\n}\n"],"names":[],"sourceRoot":""}
