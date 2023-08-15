@@ -19,9 +19,6 @@ function Todo() {
         },
       })
       .then((response) => {
-        console.log("Response:", response);
-        console.log("응답 코드: ", response.status);
-        console.log("Data: ", response.data);
         setTodos(response.data);
       })
       .catch((error) => {
@@ -32,8 +29,6 @@ function Todo() {
 
   function addTodo() {
     // POST 요청 보내기
-    console.log(newTodo);
-
     const requestBody = {
       todo: newTodo,
     };
@@ -46,9 +41,6 @@ function Todo() {
         },
       })
       .then((response) => {
-        console.log("Response:", response);
-        console.log("응답 코드: ", response.status);
-        console.log("Data: ", response.data);
         getTodo();
         setNewTodo("");
       })
@@ -74,9 +66,6 @@ function Todo() {
             },
           })
           .then((response) => {
-            console.log("Response:", response);
-            console.log("응답 코드: ", response.status);
-            console.log("Data: ", response.data);
             getTodo();
           })
           .catch((error) => {
@@ -97,9 +86,6 @@ function Todo() {
             },
           })
           .then((response) => {
-            console.log("Response:", response);
-            console.log("응답 코드: ", response.status);
-            console.log("Data: ", response.data);
             getTodo();
           })
           .catch((error) => {
@@ -131,9 +117,6 @@ function Todo() {
             },
           })
           .then((response) => {
-            console.log("Response:", response);
-            console.log("응답 코드: ", response.status);
-            console.log("Data: ", response.data);
             getTodo();
             setEditingTodoId(null);
             setModifyText("");
@@ -187,10 +170,6 @@ function Todo() {
                 checked={todo.isCompleted}
                 onChange={() => {
                   changeCompleted(todo.id);
-                  console.log(
-                    "Checkbox changed for todo with name:",
-                    todo.todo
-                  );
                 }}
               />
               <input
@@ -225,10 +204,6 @@ function Todo() {
                   checked={todo.isCompleted}
                   onChange={() => {
                     changeCompleted(todo.id);
-                    console.log(
-                      "Checkbox changed for todo with name:",
-                      todo.todo
-                    );
                   }}
                 />
                 <span style={{ marginRight: "0.5rem" }}>{todo.todo}</span>

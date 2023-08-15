@@ -45,11 +45,7 @@ function Signin() {
         }
       )
       .then((response) => {
-        // console.log("Response:", response);
-        console.log("응답 코드: ", response.status);
         if (response.status === 200) {
-          console.log("로그인 성공!");
-          //   console.log("JWT Token: ", response.data.access_token);
           localStorage.setItem("Token", response.data.access_token);
           navigate("/todo");
         }

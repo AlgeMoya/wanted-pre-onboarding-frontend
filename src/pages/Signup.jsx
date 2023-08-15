@@ -45,10 +45,7 @@ function Signup() {
         }
       )
       .then((response) => {
-        // console.log("Response:", response);
-        console.log("응답 코드: ", response.status);
         if (response.status === 201) {
-          console.log("회원가입 성공!");
           navigate("/signin");
         }
       })
