@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 function Signin() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState(""); // State for email input
-  const [password, setPassword] = useState(""); // State for password input
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [btnActive, setBtnActive] = useState("false");
   const url = "https://www.pre-onboarding-selection-task.shop/auth/signin";
 
@@ -17,6 +17,12 @@ function Signin() {
       setBtnActive(false);
     }
   }
+
+  useEffect(() => {
+    if (localStorage.getItem("Token") !== null) {
+      navigate("/todo");
+    }
+  }, []);
 
   useEffect(() => {
     checkForm();
@@ -41,9 +47,10 @@ function Signin() {
       .then((response) => {
         // console.log("Response:", response);
         console.log("응답 코드: ", response.status);
-        console.log("JWT Token: ", response.data.access_token);
         if (response.status === 200) {
           console.log("로그인 성공!");
+          //   console.log("JWT Token: ", response.data.access_token);
+          localStorage.setItem("Token", response.data.access_token);
           navigate("/todo");
         }
       })

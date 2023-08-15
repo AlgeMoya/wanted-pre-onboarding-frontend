@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 function Signup() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState(""); // State for email input
-  const [password, setPassword] = useState(""); // State for password input
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [btnActive, setBtnActive] = useState("false");
   const url = "https://www.pre-onboarding-selection-task.shop/auth/signup";
 
@@ -17,6 +17,12 @@ function Signup() {
       setBtnActive(false);
     }
   }
+
+  useEffect(() => {
+    if (localStorage.getItem("Token") !== null) {
+      navigate("/todo");
+    }
+  }, []);
 
   useEffect(() => {
     checkForm();
