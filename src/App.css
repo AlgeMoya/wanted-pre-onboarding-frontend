@@ -1,4 +1,10 @@
-.App {
+/* 예시로 수정할 수 있는 스타일 */
+
+/* 그 외 필요한 스타일 설정 추가 */
+/* 
+style={{ display: "flex", alignItems: "center" }} */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
