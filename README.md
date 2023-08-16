@@ -3,10 +3,12 @@
 지원자의 성명: 강석규
 
 프로젝트의 실행 방법
-- git clone https://github.com/AlgeMoya/wanted-pre-onboarding-frontend.git
-- cd wanted-pre-onboarding-frontend
-- npm install
-- npm start
+- `git clone https://github.com/AlgeMoya/wanted-pre-onboarding-frontend.git`
+- `cd wanted-pre-onboarding-frontend`
+- `npm install`
+- `npm start`
 
-배포 링크: https://algemoya.github.io/wanted-pre-onboarding-frontend-dist/
+배포 링크
+- Vercel: https://wanted-pre-onboarding-frontend-pi-one.vercel.app/
+- GitHub Pages: https://algemoya.github.io/wanted-pre-onboarding-frontend-dist/
 - GitHub Pages 배포 Repository: https://github.com/AlgeMoya/wanted-pre-onboarding-frontend-dist
