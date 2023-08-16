@@ -62,11 +62,14 @@ function Signin() {
       <input
         data-testid="email-input"
         value={email}
+        placeholder="이메일 입력"
         onChange={(e) => setEmail(e.target.value)}
       />
       <br />
       <input
         data-testid="password-input"
+        type="password"
+        placeholder="비밀번호 입력"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
