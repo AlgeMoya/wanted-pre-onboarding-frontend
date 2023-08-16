@@ -14,6 +14,7 @@ function App() {
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/todo" element={<Todo />}></Route>
         <Route
+          exact
           path="/"
           element={
             <div>
