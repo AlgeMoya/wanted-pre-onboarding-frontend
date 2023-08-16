@@ -9,6 +9,6 @@
 - `npm start`
 
 배포 링크
-- Vercel: https://vercel.com/algemoya/wanted-pre-onboarding-frontend
+- Vercel: https://wanted-pre-onboarding-frontend-pi-one.vercel.app/
 - GitHub Pages: https://algemoya.github.io/wanted-pre-onboarding-frontend-dist/
 - GitHub Pages 배포 Repository: https://github.com/AlgeMoya/wanted-pre-onboarding-frontend-dist
