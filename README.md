@@ -14,6 +14,4 @@
 <img src="https://github.com/AlgeMoya/wanted-pre-onboarding-frontend/assets/8746067/17da9a00-28f8-41a1-ac48-dd097cbc0ebd" width=50%/>
 
 배포 링크
-- Vercel: https://wanted-pre-onboarding-frontend-pi-one.vercel.app/
-- GitHub Pages: https://algemoya.github.io/wanted-pre-onboarding-frontend-dist/
-- GitHub Pages 배포 Repository: https://github.com/AlgeMoya/wanted-pre-onboarding-frontend-dist
+- https://wanted-pre-onboarding-frontend-pi-one.vercel.app/
