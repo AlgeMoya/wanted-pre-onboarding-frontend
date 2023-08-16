@@ -1,5 +1,8 @@
 # 원티드 프론트엔드 프리온보딩 인턴십 선발과제
 
+- https://www.wanted.co.kr/events/pre_ob_fe_12?t=1692094248252#noticeContainer <br />
+- https://github.com/walking-sunset/selection-task
+
 지원자의 성명: 강석규
 
 프로젝트의 실행 방법
