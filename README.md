@@ -8,5 +8,7 @@
 - `npm install`
 - `npm start`
 
-배포 링크: https://algemoya.github.io/wanted-pre-onboarding-frontend-dist/
+배포 링크
+- Vercel: https://vercel.com/algemoya/wanted-pre-onboarding-frontend
+- GitHub Pages: https://algemoya.github.io/wanted-pre-onboarding-frontend-dist/
 - GitHub Pages 배포 Repository: https://github.com/AlgeMoya/wanted-pre-onboarding-frontend-dist
