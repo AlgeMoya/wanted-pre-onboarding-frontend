@@ -3,8 +3,6 @@
 - https://www.wanted.co.kr/events/pre_ob_fe_12?t=1692094248252#noticeContainer <br />
 - https://github.com/walking-sunset/selection-task
 
-지원자의 성명: 강석규
-
 프로젝트의 실행 방법
 - `git clone https://github.com/AlgeMoya/wanted-pre-onboarding-frontend.git`
 - `cd wanted-pre-onboarding-frontend`
